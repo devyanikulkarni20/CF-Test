@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AllTestSuites" duration-ms="0" started-at="2018-04-09T13:15:52Z" finished-at="2018-04-09T13:15:52Z">
+    <groups>
+    </groups>
+  </suite> <!-- AllTestSuites -->
+  <suite name="Suit1" duration-ms="61382" started-at="2018-04-09T13:14:48Z" finished-at="2018-04-09T13:15:49Z">
+    <groups>
+      <group name="MyResource">
+        <method signature="MyResourcePageTest.MyResourceTest001_Create_New_Lesson()[pri:0, instance:tests.MyResourcePageTest@1810399e]" name="MyResourceTest001_Create_New_Lesson" class="tests.MyResourcePageTest"/>
+        <method signature="MyResourcePageTest.MyResourceTest002_Create_New_Activity()[pri:0, instance:tests.MyResourcePageTest@1810399e]" name="MyResourceTest002_Create_New_Activity" class="tests.MyResourcePageTest"/>
+        <method signature="MyResourcePageTest.MyResourceTest003_Create_New_Assessment()[pri:0, instance:tests.MyResourcePageTest@1810399e]" name="MyResourceTest003_Create_New_Assessment" class="tests.MyResourcePageTest"/>
+      </group> <!-- MyResource -->
+    </groups>
+    <test name="MyResourceTest" duration-ms="61382" started-at="2018-04-09T13:14:48Z" finished-at="2018-04-09T13:15:49Z">
+      <class name="tests.MyResourcePageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.MyResourcePageTest@1810399e]" name="setup" is-config="true" duration-ms="17004" started-at="2018-04-09T18:44:31Z" finished-at="2018-04-09T18:44:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.MyResourcePageTest@1810399e]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-04-09T18:44:48Z" finished-at="2018-04-09T18:44:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="MyResourceTest001_Create_New_Lesson()[pri:0, instance:tests.MyResourcePageTest@1810399e]" name="MyResourceTest001_Create_New_Lesson" duration-ms="21066" started-at="2018-04-09T18:44:48Z" finished-at="2018-04-09T18:45:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyResourceTest001_Create_New_Lesson -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:tests.MyResourcePageTest@1810399e]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2018-04-09T18:45:09Z" finished-at="2018-04-09T18:45:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.MyResourcePageTest@1810399e]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-04-09T18:45:09Z" finished-at="2018-04-09T18:45:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="MyResourceTest002_Create_New_Activity()[pri:0, instance:tests.MyResourcePageTest@1810399e]" name="MyResourceTest002_Create_New_Activity" duration-ms="20262" started-at="2018-04-09T18:45:09Z" finished-at="2018-04-09T18:45:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyResourceTest002_Create_New_Activity -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:tests.MyResourcePageTest@1810399e]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2018-04-09T18:45:29Z" finished-at="2018-04-09T18:45:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.MyResourcePageTest@1810399e]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-04-09T18:45:29Z" finished-at="2018-04-09T18:45:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="MyResourceTest003_Create_New_Assessment()[pri:0, instance:tests.MyResourcePageTest@1810399e]" name="MyResourceTest003_Create_New_Assessment" duration-ms="20036" started-at="2018-04-09T18:45:29Z" finished-at="2018-04-09T18:45:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyResourceTest003_Create_New_Assessment -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:tests.MyResourcePageTest@1810399e]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2018-04-09T18:45:49Z" finished-at="2018-04-09T18:45:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="close()[pri:0, instance:tests.MyResourcePageTest@1810399e]" name="close" is-config="true" duration-ms="2324" started-at="2018-04-09T18:45:49Z" finished-at="2018-04-09T18:45:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- tests.MyResourcePageTest -->
+    </test> <!-- MyResourceTest -->
+  </suite> <!-- Suit1 -->
+</testng-results>

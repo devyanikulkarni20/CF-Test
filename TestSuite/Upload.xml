@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suit1" >
+
+    <test name="Upload Test" >
+
+        <groups>
+            <run>
+                <include name="Upload"/>
+            </run>
+        </groups>
+
+        <classes>
+
+            <class name="tests.MyResourcePageTest" />
+
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suit1" >
+
+    <test name="Classes Test" >
+
+        <groups>
+            <run>
+                <include name="Classes"/>
+            </run>
+        </groups>
+
+        <classes>
+            <!-- <class name="core.CoreTest" />
+            <class name="tests.HomePageTest" />
+            <class name="tests.LoginPageTest" />-->
+            <class name="tests.ClassesPageTest" />
+        </classes>
+    </test>
+
+</suite>

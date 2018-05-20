@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="AllTestSuites" verbose="1" >
+
+    <suite-files>
+
+        <suite-file path="MyResource.xml" />
+        <suite-file path="Classes.xml" />
+        <suite-file path="HomePage.xml" />
+
+    </suite-files>
+
+</suite>
+
+

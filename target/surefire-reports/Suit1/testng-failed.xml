@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suit1]">
+  <test name="MyResourceTest(failed)">
+    <groups>
+      <run>
+        <include name="MyResource"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="tests.MyResourcePageTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="AfterMethod"/>
+          <include name="MyResourceTest001_Create_New_Lesson"/>
+          <include name="MyResourceTest002_Create_New_Activity"/>
+          <include name="MyResourceTest003_Create_New_Assessment"/>
+          <include name="setup"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- tests.MyResourcePageTest -->
+    </classes>
+  </test> <!-- MyResourceTest(failed) -->
+</suite> <!-- Failed suite [Suit1] -->

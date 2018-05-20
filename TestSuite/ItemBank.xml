@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suit1" >
+
+    <test name="ItemBank Test" >
+
+        <groups>
+            <run>
+                <include name="ItemBank"/>
+            </run>
+        </groups>
+
+        <classes>
+
+            <class name="tests.ItemBankTest" />
+
+        </classes>
+    </test>
+
+</suite>
