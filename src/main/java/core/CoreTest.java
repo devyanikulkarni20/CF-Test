@@ -24,8 +24,8 @@ public class CoreTest
 {
     public RemoteWebDriver driver;
     //public WebDriver driver;
-    public static String BS_USERNAME="devyanikulkarni1";
-    public static String BS_PASSWORD="WE9vDrPxx7fonmh2BHP8";
+    public static String BS_USERNAME="devyanikulkarni2";
+    public static String BS_PASSWORD="GjH1chYViq4xVngdpLbS";
     public static String BS_URL="https://"+BS_USERNAME+":"+BS_PASSWORD+"@hub.browserstack.com/wd/hub";
 
     //log4j
